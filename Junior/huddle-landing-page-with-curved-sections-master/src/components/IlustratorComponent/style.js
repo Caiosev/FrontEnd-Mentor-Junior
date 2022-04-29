@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Variables as V } from '../../styled.var'
+
 
 export const Bg = styled.img`
     width: 100vw;  
@@ -19,6 +19,8 @@ export const Content = styled.div`
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 30% 70%;
+        margin-top: -150px;
+        margin-bottom: -50px;
     } 
     .bgs{
         margin: 0;

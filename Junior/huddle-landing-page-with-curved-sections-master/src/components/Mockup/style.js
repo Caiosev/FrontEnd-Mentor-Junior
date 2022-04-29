@@ -7,7 +7,7 @@ export const Container = styled.div`
     height: 190px;
     @media screen and (min-width:1000px){
         width: 65vw;
-        height: 500px;
+        height: 65vh;
     }
     margin: 0 auto 100px auto;
     img{

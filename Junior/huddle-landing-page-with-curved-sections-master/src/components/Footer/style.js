@@ -8,6 +8,7 @@ export const Footer = styled.footer`
     color: white;
     @media screen and (min-width:1000px){
             margin-top: 200px;
+            height: 550px;
     }
     
     #curve{
@@ -20,6 +21,26 @@ export const Footer = styled.footer`
     }
     .content{
         margin: 20px; 
+        @media screen and (min-width:1000px){
+           display: grid;
+           grid-template-columns: 50% 50%;
+           .news-sub{
+               grid-column: 2/3;
+               input{
+                   width: 99%;
+               }
+           }
+           .huddle-desc{
+               grid-column: 1/2;
+               grid-row: 1/2;
+               img{
+                width: 180px;
+               }
+               p{
+                   width: 250px;
+               }
+           }
+        }
     }
     h2{
         padding-top: 40px;
@@ -53,12 +74,18 @@ export const Footer = styled.footer`
         filter: invert(92%) sepia(100%) saturate(0%) hue-rotate(202deg) brightness(106%) contrast(106%);
         width: 53vw;
         margin-bottom: 15px;
+        @media screen and (min-width:1000px){
+            
+        }
+
+    
     }
 
     .info{
         p{
             margin: 0%;
             margin-left: 10px;
+            
         }
         img{
             width: 30px;

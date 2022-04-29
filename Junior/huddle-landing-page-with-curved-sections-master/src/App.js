@@ -41,7 +41,7 @@ function App() {
      <IlustratorComponent image={ilustratorGrowTogether} titulo={ilustratorTitulo1} p={ilustratorText1} bgTop={bgTopSec1} bgBottom={bgBottomSec1}/>
      <IlustratorComponent image={ilustratorFlowingCon} titulo={ilustratorTitulo2} p={ilustratorText2}/>
      <IlustratorComponent image={ilustratorYourUsers} titulo={ilustratorTitulo3} p={ilustratorText3} bgTop={bgTopSec2} bgBottom={bgBottomSec2}/>
-     <Titulo titulo={'Ready to Build Your Community?'}  btnText={btnText1} btn/>
+     <Titulo titulo={'Ready to Build Your Community?'}  btnText={btnText1} style={{margin:0}}/>
      <Footer />
     </div>
   );
