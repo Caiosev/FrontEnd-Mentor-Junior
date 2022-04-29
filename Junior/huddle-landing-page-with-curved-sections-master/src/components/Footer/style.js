@@ -6,15 +6,20 @@ export const Footer = styled.footer`
     height: 750px;
     background-color: #00252E;
     color: white;
+    @media screen and (min-width:1000px){
+            margin-top: 200px;
+    }
     
     #curve{
         margin-top: -10%;
         filter: brightness(0) saturate(100%) invert(12%) sepia(21%) saturate(3433%) hue-rotate(155deg) brightness(95%) contrast(105%);
         width: 100vw;
-        color:red;        
+        color:red;   
+          
+         
     }
     .content{
-        margin: 20px;
+        margin: 20px; 
     }
     h2{
         padding-top: 40px;

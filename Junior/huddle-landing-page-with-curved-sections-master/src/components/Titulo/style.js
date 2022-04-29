@@ -8,8 +8,17 @@ export const Sec = styled.section`
     text-align: center;
     margin-bottom: 80px;
 
+    h1{
+        @media screen and (min-width:1000px){
+            font-size: 32px;
+        }
+    }
     p{
         margin: 0;
+        @media screen and (min-width:1000px){
+            font-size: 18px;
+            margin: 0 20%;
+        }
     }
     button{
         width: 70%;
@@ -21,5 +30,8 @@ export const Sec = styled.section`
         border: 0;
         border-radius: 50px;
         box-shadow: 1px 3px 17px 0px rgba(0,0,0,0.55);
+        @media screen and (min-width:1000px){
+            width: 30%;
+        }
     }
 `

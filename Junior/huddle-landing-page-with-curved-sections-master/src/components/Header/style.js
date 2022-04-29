@@ -13,6 +13,10 @@ export const Header = styled.header`
     img{
         width: 100px;
         height: 18px;
+        @media screen and (min-width: 1000px) {
+            width:185px;
+            height: 32px;
+        }
     }
     button{
         
@@ -25,8 +29,7 @@ export const Header = styled.header`
         font-family: ${V.OpenSans};
         color: ${V.Pink};
         background-color: white;
-       
-    
+        cursor: pointer;
     }
 
 

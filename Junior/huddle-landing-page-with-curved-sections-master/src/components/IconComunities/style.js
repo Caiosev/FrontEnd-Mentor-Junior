@@ -5,16 +5,22 @@ export const Container = styled.div`
     height: 130px;
     margin-bottom: 60px;
     margin: 0 auto 60px auto;
+    @media screen and (min-width:100px) {
+        width: 15vw;
+    }
     
     img{
-        width: 30px;
-        height: 25px;
+        width: 38px;
+        height: 30px;
     }
     h1{
         margin: 0;
         color: #00252E;
         font-size: 42px;
         text-align: center;
+        @media screen and (min-width:100px) {
+            font-size: 60px;
+        }
     }
     p{
         color: #96A2AA;
