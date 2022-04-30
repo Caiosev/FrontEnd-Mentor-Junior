@@ -10,6 +10,9 @@ export const Container = styled.div`
         width: 60px;
         height: 60px;
         border-radius: 50%;
+        @media (min-width: 1000px) { 
+            margin-bottom: 40px;
+        }
     }
     p{
         padding: 20px;
@@ -19,6 +22,9 @@ export const Container = styled.div`
         line-height: 30px;
         color: #66656A;
         font-family: 'Barlow',serif;
+        @media (min-width: 1000px) { 
+            margin-bottom: 30px;
+        }
     }
     h2{
         font-size: 18px;

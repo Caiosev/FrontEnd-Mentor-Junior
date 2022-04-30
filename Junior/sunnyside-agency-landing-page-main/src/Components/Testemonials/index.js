@@ -29,9 +29,11 @@ export default function Testemonials() {
   return (
     <S.Container>
         <h1>CLIENT TESTIMONIALS</h1>
-        <Clients photo={EmilyPhoto} text={person1.text} name={person1.name} role={person1.role}/>
-        <Clients photo={ThomasPhoto} text={person2.text} name={person2.name} role={person2.role}/>
-        <Clients photo={JenniePhoto} text={person3.text} name={person3.name} role={person3.role}/>
+        <div className='clients'>
+            <Clients  photo={EmilyPhoto} text={person1.text} name={person1.name} role={person1.role}/>
+            <Clients  photo={ThomasPhoto} text={person2.text} name={person2.name} role={person2.role}/>
+            <Clients  photo={JenniePhoto} text={person3.text} name={person3.name} role={person3.role}/>
+        </div>
     </S.Container>
   )
 }

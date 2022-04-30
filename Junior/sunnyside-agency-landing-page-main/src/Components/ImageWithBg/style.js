@@ -3,12 +3,17 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     background-image: url(${(props) => props.bg});
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: cover;
-
+    background-size: 100vw 100%;
+    @media (min-width: 1000px) {
+        width: 100%;
+        height: 60vh;
+        background-size: cover;
+    }
+   
     .content{
         display: flex;
         flex-direction: column;

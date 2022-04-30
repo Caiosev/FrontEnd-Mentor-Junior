@@ -5,6 +5,12 @@ export const Container = styled.div`
     width: 100vw;
     height: 50vh;
     background-color: #FFFBF8;
+    @media (min-width: 1000px){
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
     
     .content{
         padding: 25px;
