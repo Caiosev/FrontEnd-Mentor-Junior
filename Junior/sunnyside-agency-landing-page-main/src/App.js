@@ -1,9 +1,11 @@
 import Header from "./Components/Header/index";
+import WeAreCreativeComp from "./Components/WeAreCreativeComp";
+
 function App() {
   return (
     <div className="App">
       <Header />
-      {/* Imagem de fundo com Principal */}
+      <WeAreCreativeComp />
       {/* Imagem */}
       {/* Texto Subtexto e LearnMore */}
       {/* Imagem */}
