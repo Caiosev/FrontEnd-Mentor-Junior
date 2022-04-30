@@ -27,11 +27,8 @@ export const Container = styled.div`
 .arrow{
   content: "";
   background: white;
-  transform: ;
   transform: rotate(90deg);
   clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
-  animation: arrowani 2s infinite linear;
-
 }
 `
 

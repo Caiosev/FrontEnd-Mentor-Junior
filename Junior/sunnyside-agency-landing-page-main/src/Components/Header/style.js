@@ -9,6 +9,7 @@ export const Container = styled.header`
     justify-content: space-between;
     padding: 10px 0;
     align-items: center;
+    position: fixed;
     #logo{
         width: 100px;
         height: 20px;
