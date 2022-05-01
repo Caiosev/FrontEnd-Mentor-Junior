@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function PBarComponent() {
   return (
-    <div className='mt-5 rounded-xl h-44 w-90% bg-darkblue mx-4 text-white'>
+    <div className='mt-5  md:flex-1 md:mr-32 md:mt-12 rounded-xl h-44 w-90% bg-darkblue mx-4 text-white'>
         <p className='text-ts mx-9 mt-9 mb-4'>You've used <span className='font-bold'>815 GB</span> of your storage</p>
         
         <div class="w-80% mx-8 bg-moredarkblue rounded-full">
